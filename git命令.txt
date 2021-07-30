@@ -1,0 +1,13 @@
+git init
+
+#添加所有文件到缓存区
+git add .
+
+#将缓存区所以改动提交到本地仓库管理中心去
+git commit -m "备注"
+
+#将本地所有改动提交到远程仓库
+git push -u origin master
+
+#命令用于查看在你上次提交之后是否有对文件进行再次修改。
+git status
